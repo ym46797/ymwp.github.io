@@ -1,0 +1,179 @@
+
+
+body {
+    margin: 0; 
+    text-align: center;
+    background-color: #0058b6;
+    align-items: center;
+}
+
+nav {
+    background-color: #161e20; 
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 10px; 
+    margin-bottom: -20px;
+}
+
+nav a {
+    color: #ffcf11; 
+    text-decoration: none; 
+    margin-left: 15px; 
+    transition: color 0.3s; 
+}
+
+nav a:hover {
+    color: #FF4500; 
+}
+
+footer {
+    background-color: #161e20; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    color: white; 
+}
+
+footer a {
+    color: #ffcf11; 
+    text-decoration: none; 
+    margin-left: 15px; 
+    transition: color 0.3s; 
+}
+
+footer a:hover {
+    color: #FF4500; 
+}
+
+
+.imagedescription {
+    background-color: #0058b6;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.imagedescription {
+
+    text-align: center;
+    color: white; 
+  }
+
+hr {
+    border: 1px solid #ccc; 
+    margin: 20px 0; 
+}
+.namepad {
+
+    margin-bottom: -20px;
+    margin-top: 0;
+    background-image:url("../images/pngtree-computer-light-effect-technology-theme-blue-cool-electronic-background-picture-image_1591421.jpg"); 
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+    text-align: center;
+    color: white; 
+    padding-top: 130px;
+   
+}
+
+.card {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 400px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.card ul li img {
+    margin-right: 10px;
+    width: 40px;
+    height:40px;
+}
+
+.contain {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+#pic1 {
+    position: absolute;
+    top: 25%; 
+    left: 25%; 
+    transform: translate(-50%, -50%); 
+    background-color: #ffcc0000;
+    padding: 20px;
+    border-radius: 8px;
+   
+}
+
+#pic2 {
+    position: absolute;
+    top: 25%; 
+    left: 75%;
+    transform: translate(-50%, -50%); 
+    background-color: #ffcc0000;
+    padding: 20px;
+    border-radius: 8px;
+   
+}
+
+
+
+.container1 {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+h3 {
+    font-family: 'Lobster', cursive; 
+    font-size: 30px;
+    color:#9ad5ce
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 50px;
+    color:#bcfff2
+}
+
+#mypic {
+    margin: 20px;
+    border-style: solid;
+}
