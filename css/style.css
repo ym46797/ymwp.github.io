@@ -19,7 +19,7 @@ nav a {
     color: #ffcf11; 
     text-decoration: none; 
     margin-left: 15px; 
-    transition: color 0.3s; 
+    transition: color 1s; 
 }
 
 nav a:hover {
