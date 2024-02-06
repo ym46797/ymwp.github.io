@@ -22,7 +22,7 @@ nav a {
     transition: color 1s; 
 }
 
-nav a:hover {
+nav a: hover {
     color: #FF4500; 
 }
 
@@ -39,10 +39,10 @@ footer a {
     color: #ffcf11; 
     text-decoration: none; 
     margin-left: 15px; 
-    transition: color 0.3s; 
+    transition: color 1s; 
 }
 
-footer a:hover {
+footer a: hover {
     color: #FF4500; 
 }
 
